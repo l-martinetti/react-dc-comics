@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: sans-serif;
+}
+
 a {
     color: black;
     text-decoration: none;
@@ -19,7 +23,7 @@ ul {
 }
 
 .active {
-    color: blue;
+    color: #0282F9;
 }
 
 /* Utils */
@@ -37,7 +41,7 @@ ul {
 }
 
 .blue-background {
-    background-color: blue;
+    background-color: #0282F9;
 }
 
 .h-100 {
@@ -78,11 +82,21 @@ header nav {
 .navList li {
     padding-inline: 10px;
     text-transform: uppercase;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
+    font-weight: bold;
     align-content: center;
 }
 
+.navList li a:hover {
+    color: #0282F9
+}
+
 /* Main */
+.blue-background {
+    position: relative;
+    z-index: 10;
+}
+
 .black-background div {
     width: 100%;
     height: 100%;
@@ -116,11 +130,116 @@ main .black-background span {
 }
 
 .blue-background nav ul img {
-    width: 40px;
+    width: 30px;
 }
 
 .blue-background nav ul a {
     display: inline-block;
     vertical-align: middle;
     text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+/* Footer */
+#topFooter {
+    background-image: url('/src/assets/img/footer-bg.jpg');
+    height: 350px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10px;
+
+}
+
+#topFooter .container {
+    height: 100%;
+}
+
+.topFooterMenus {
+    padding-top: 20px;
+    padding-right: 20px;
+    display: inline-block;
+}
+
+.dc {
+    position: relative;
+    top: -12px;
+}
+
+.sites {
+    position: relative;
+    top: -123px;
+}
+
+.topFooterMenus ul {
+    margin-bottom: 15px;
+}
+
+.topFooterMenus h4 {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.topFooterMenus li a {
+    font-size: 0.7rem;
+    color: rgb(117, 114, 114);
+    text-transform: capitalize;
+}
+
+.footer-img-container {
+    position: relative;
+}
+
+.footer-img-container div {
+    position: absolute;
+    top: -370px;
+    right: 0;
+    z-index: 0;
+}
+
+.footer-img-container div img {
+    width: 85%;
+}
+
+/* Bottom Footer */
+#bottomFooter {
+    background-color: #303030;
+    height: 90px;
+    position: relative;
+    z-index: 10;
+}
+
+#bottomFooter .container {
+    height: 100%;
+    align-items: center;
+}
+
+.bottomFooterBtn span {
+    padding: 10px;
+    border: 2px solid #0282F9;
+    color: white;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.fotterMenuContainer {
+    height: 100%;
+}
+
+.fotterMenuContainer ul {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.fotterMenuContainer ul li {
+    padding-left: 15px;
+}
+
+.fotterMenuContainer ul li span {
+    color: #0282F9;
+    text-transform: uppercase;
+    font-weight: bold;
 }
