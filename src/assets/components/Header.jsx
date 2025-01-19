@@ -4,7 +4,7 @@ const Header = () => {
             <div className="container d-flex justify-space-between">
                 <div className="logo">
                     <a href="#">
-                        <img src="/src/assets/img/favicon.ico" alt="DC" />
+                        <img src="/src/assets/img/dc-logo.png" alt="DC" />
                     </a>
                 </div>
                 <div className="navBar">

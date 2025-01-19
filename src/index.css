@@ -59,7 +59,7 @@ ul {
 /* Header */
 
 header {
-    margin-block: 20px;
+    margin-block: 10px;
 }
 
 .logo {
@@ -235,7 +235,11 @@ main .black-background span {
 }
 
 .fotterMenuContainer ul li {
-    padding-left: 15px;
+    padding-left: 10px;
+}
+
+.fotterMenuContainer ul li img {
+    width: 80%;
 }
 
 .fotterMenuContainer ul li span {
