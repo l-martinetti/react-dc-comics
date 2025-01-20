@@ -11,4 +11,6 @@ const navMenus = [
     { id: 11, url: '#', text: 'shop' }
 ]
 
-export default navMenus
+export {
+    navMenus
+} 
