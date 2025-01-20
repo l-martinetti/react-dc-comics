@@ -12,7 +12,7 @@ const Main = () => {
                         <ul className="d-flex justify-space-between">
                             <li>
                                 <a className="white-text margin-right-10" href="#">
-                                    <img src="/src/assets/img/buy-comics-digital-comics.png" alt="buy" />
+                                    <img src="/img/buy-comics-digital-comics.png" alt="buy" />
                                 </a>
                                 <a href="#">
                                     <span className="white-text">
@@ -22,7 +22,7 @@ const Main = () => {
                             </li>
                             <li>
                                 <a className="white-text margin-right-10" href="#">
-                                    <img src="/src/assets/img/buy-comics-merchandise.png" alt="buy" />
+                                    <img src="/img/buy-comics-merchandise.png" alt="buy" />
                                 </a>
                                 <a href="#">
                                     <span className="white-text">
@@ -32,7 +32,7 @@ const Main = () => {
                             </li>
                             <li>
                                 <a className="white-text margin-right-10" href="#">
-                                    <img src="/src/assets/img/buy-comics-subscriptions.png" alt="buy" />
+                                    <img src="/img/buy-comics-subscriptions.png" alt="buy" />
                                 </a>
                                 <a href="#">
                                     <span className="white-text">
@@ -42,7 +42,7 @@ const Main = () => {
                             </li>
                             <li>
                                 <a className="white-text margin-right-10" href="#">
-                                    <img src="/src/assets/img/buy-comics-shop-locator.png" alt="buy" />
+                                    <img src="/img/buy-comics-shop-locator.png" alt="buy" />
                                 </a>
                                 <a href="#">
                                     <span className="white-text">
@@ -52,7 +52,7 @@ const Main = () => {
                             </li>
                             <li>
                                 <a className="white-text margin-right-10" href="#">
-                                    <img src="/src/assets/img/buy-dc-power-visa.svg" alt="buy" />
+                                    <img src="/img/buy-dc-power-visa.svg" alt="buy" />
                                 </a>
                                 <a href="#">
                                     <span className="white-text">

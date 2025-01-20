@@ -142,7 +142,7 @@ main .black-background span {
 
 /* Footer */
 #topFooter {
-    background-image: url('/src/assets/img/footer-bg.jpg');
+    background-image: url('/img/footer-bg.jpg');
     height: 350px;
     background-repeat: no-repeat;
     background-size: cover;

@@ -148,7 +148,7 @@ const Footer = () => {
                     </div>
                     <div className="footer-img-container">
                         <div>
-                            <img src="/src/assets/img/dc-logo-bg.png" alt="" />
+                            <img src="/img/dc-logo-bg.png" alt="" />
                         </div>
                     </div>
                 </div>
@@ -167,27 +167,27 @@ const Footer = () => {
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="/src/assets/img/footer-facebook.png" alt="" />
+                                    <img src="/img/footer-facebook.png" alt="" />
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="/src/assets/img/footer-twitter.png" alt="" />
+                                    <img src="/img/footer-twitter.png" alt="" />
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="/src/assets/img/footer-youtube.png" alt="" />
+                                    <img src="/img/footer-youtube.png" alt="" />
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="/src/assets/img/footer-pinterest.png" alt="" />
+                                    <img src="/img/footer-pinterest.png" alt="" />
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <img src="/src/assets/img/footer-periscope.png" alt="" />
+                                    <img src="/img/footer-periscope.png" alt="" />
                                 </a>
                             </li>
                         </ul>
