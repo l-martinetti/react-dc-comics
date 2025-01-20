@@ -1,10 +1,10 @@
+import Cards from '../components/partials/Cards'
+
 const Main = () => {
     return (
         <main>
             <div className="black-background h-100">
-                <div className="container">
-                    <span> --&gt; Content goes here &lt;-- </span>
-                </div>
+                <Cards />
             </div>
             <div className="blue-background h-100">
                 <div className="container">
