@@ -1,4 +1,4 @@
-const Header = () => {
+const Header = ({ menu }) => {
     return (
         <header>
             <div className="container d-flex justify-space-between">
@@ -10,7 +10,12 @@ const Header = () => {
                 <div className="navBar">
                     <nav>
                         <ul className="navList">
-                            <li>
+                            {menu.map(menuVoice => (
+                                <li key={`header-menu-id-${menuVoice.id}`}>
+                                    <a href='#'>{menuVoice.text}</a>
+                                </li>
+                            ))}
+                            {/* <li>
                                 <a href="">characters</a>
                             </li>
                             <li>
@@ -39,7 +44,7 @@ const Header = () => {
                             </li>
                             <li>
                                 <a href="">shop</a>
-                            </li>
+                            </li> */}
                         </ul>
                     </nav>
                 </div>

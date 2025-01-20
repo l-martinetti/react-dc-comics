@@ -1,11 +1,9 @@
-import ComicsList from './ComicsList';
-
 const Main = () => {
     return (
         <main>
             <div className="black-background h-100">
                 <div className="container">
-                    {/* <span> --&gt; Content goes here &lt;-- </span> */}
+                    <span> --&gt; Content goes here &lt;-- </span>
                 </div>
             </div>
             <div className="blue-background h-100">
